@@ -34,6 +34,7 @@
     ....
   end
   ```
+* To define a private function that can be called only from within the module I do `defp functionName do`
 
 ## Pattern matching
 
@@ -99,3 +100,4 @@
   post("/topics", TopicController, :create)
 ```
 we can just do: `resources("/", TopicController)` and it will automatically generate all REST routes.
+* Using `put_session(:user_id, user.id)` will drop a cookie in the current session with whatever we pass in the function. The cookie is encrypted
