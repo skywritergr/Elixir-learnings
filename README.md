@@ -1,5 +1,14 @@
-# Notes
+# Notes on Elixir
 
+These are things that I found interesting while learning Elixir.
+
+## Table of Contents
+
+  - [Basics](#basics)
+  - [Pattern Matching](#pattern-matching)
+  - [Testing and Documentation](#testing-and-documentation)
+  - [Data Structures](#data-structures)
+  - [Phoenix](#phoenix)
 ## Basics
 
 * `iex -S mix` opens the interactive shell to run elixir commands, compile etc.
