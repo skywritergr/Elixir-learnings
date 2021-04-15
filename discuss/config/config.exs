@@ -35,6 +35,7 @@ config :ueberauth, Ueberauth,
     github: {Ueberauth.Strategy.Github, [default_scope: "user,public_repo"]}
   ]
 
+# These keys are examples. They don't exist. Don't bother.
 config :ueberauth, Ueberauth.Strategy.Github.OAuth,
-  client_id: "364bdebadb7e4230e433",
-  client_secret: "93ffb9c191ea0e7bda472c73695ebcb602c22f11"
+  client_id: "sdasd21313",
+  client_secret: "sdadasd234d2d3d23ded23d233d"
